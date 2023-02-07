@@ -1,0 +1,26 @@
+form {
+  max-width: 300px;
+  text-align: right;
+  background-color: white;
+  box-shadow: 0 0 5px;
+  padding: 7px;
+  border-radius: 5px;
+
+  .input-error {
+    float: left;
+    font-family: monospace;
+    color: red;
+    padding-bottom: 5px;
+  }
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 10px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
